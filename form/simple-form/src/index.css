@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #707070;
+}
+
+.container{
+  max-width: 1340px;
+}
+
+.formborder{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+}
